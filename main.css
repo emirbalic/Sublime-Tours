@@ -235,11 +235,10 @@ nav {
 }
 
 
-.skill a {
+/* .skill a {
   font-size: 80px;
   color: #f5f3f5;
-  /* color: #8fcbfd; */
-}
+} */
 
 .skill h1 {
   /* color: #f5f3f5; */
@@ -250,12 +249,40 @@ nav {
 
 }
 
+.skill h2 {
+  /* color: #f5f3f5; */
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 5px 0 10px 0;
+  font-weight: 400;
+}
+
 
 .skill p {
   /* color: #f5f3f5; */
   line-height: 2;
   letter-spacing: 5px
 }
+
+.skill a button {
+  font-family: 'Permanent Marker', cursive;
+  background: transparent;
+  cursor: pointer;
+  display: inline-block;
+  /* text-decoration: none; */
+  text-transform: uppercase;
+  color: #f5f3f5;
+  padding: 15px 10px;
+  border: 3px solid #f5f3f5;
+  transition: border 2s ease, background 2s ease, color 2s ease;
+}
+
+.skill a button:hover {
+  color: #191919;
+  background: #f5f3f5;
+  border-color: #f5f3f5;
+}
+
 
 @media screen and (min-width:776px) {
   .skills-center {
@@ -453,110 +480,6 @@ nav {
   cursor: pointer;
 }
 
-/*##############team members#####################*/
-
-/* .team-members {
-  padding: 100px 20px;
-  background: #f5f3f5;
-  color: #191919;
-
-}
-
-.member {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.member img {
-  border-radius: 30px;
-}
-
-.member h3 {
-  text-transform: capitalize;
-  margin: 10px 0;
-}
-
-.member h6 {
-  margin: 0 0 7px 0;
-  text-transform: capitalize;
-  color: #a72121;
-}
-
-.member p {
-  margin: 0 0 10px 0;
-  line-height: 2;
-  color: #9f9a9a;
-}
-
-.member-icons {
-  display: flex;
-  justify-content: space-around;
-  padding: 0 30px;
-}
-
-.member-icons a {
-  font-size: 30px;
-}
-
-.member-icons .fa-facebook {
-  color: #3b5998
-}
-
-.member-icons .fa-instagram {
-  color: #fb3958;
-}
-
-.member-icons .fa-google {
-  color: #f4c20e
-}
-
-.member-icons .fa-twitter {
-  color: #00aced
-} */
-
-/*###############customers######################*/
-
-/* .customers {
-  padding: 100px 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/roma-statue.jpg)center/cover fixed no-repeat;
-}
-
-.customer {
-  width: 90%;
-  margin: 70px auto;
-  text-align: center;
-  padding: 10px 20px;
-  background: #f5f3f5;
-  border-radius: 20px;
-}
-
-.customer a {
-  font-size: 50px;
-  color: #8fcbfd;
-}
-
-.customer p {
-  margin: 20px;
-  line-height: 2;
-  color: #8d8d8d;
-}
-
-.customer h3 {
-  text-transform: capitalize;
-  color: #8fcbfd;
-}
-
-.customer h6 {
-  text-transform: uppercase;
-  margin: 10px 0 20px 0;
-}
-
-.customer img {
-  width: 150px!important;
-  margin: 0 auto;
-  border-radius: 50%;
-  margin-bottom: -60px;
-} */
 
 /*###############contact################*/
 
@@ -565,7 +488,8 @@ nav {
   /* background: linear-gradient(rgba(243, 200, 106, 0.6), rgba(0, 0, 0, 0.6)), url(img/roma-colosseum.jpg) center/cover fixed no-repeat; */
   background: url(img/roma-colosseum.jpg) center/cover fixed no-repeat;
   /* color: #8579D9; */
-  color: #f5f3f5;
+  color: #03243e;
+  /* color: #f5f3f5; */
 }
 
 
@@ -589,7 +513,13 @@ nav {
 
 .contact-text h3 {
   text-transform: capitalize;
-  margin-bottom: 20px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.contact-text p {
+  font-size: 30px; 
+  color:white;
 }
 
 .contact-form {
@@ -603,8 +533,8 @@ nav {
 .contact-form h3 {
   width: 100%;
   /* ova boja je za promjeniti u pink */
-  background: #8579D9;
-  /* background: #8fcbfd; */
+  /* background: #8579D9; */
+  background: #03243e;
   text-align: center;
   text-transform: capitalize;
   padding: 20px;
@@ -624,10 +554,11 @@ form textarea {
   padding: 5px 0!important;
   border: none;
   font-size: 20px;
-  border-bottom: 3px solid #8579D9;
+  /* border-bottom: 3px solid #8579D9; */
+  border-bottom: 3px solid #03243e;
   background: transparent;
 
-
+  
 
 }
 
@@ -645,7 +576,7 @@ form textarea::placeholder {
 form button {
   font-size: 25px;
   margin: 10px 0;
-  background:#8579D9;
+  background:#03243e;
   border-radius: 20px;
   padding: 5px 0;
   color: #f5f3f5;
@@ -654,7 +585,8 @@ form button {
 }
 
 form button:hover {
-  background: #191919;
+  /* background: #191919; */
+  background:#03243e;
   color: #8fcbfd;
 }
 

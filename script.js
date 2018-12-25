@@ -6,7 +6,10 @@ $(document).ready(function () {
     $('.nav-links').slideToggle(1000);
     $('.btn').toggleClass('change');
 
-  })
+    //for the MP
+    $('.image-link').magnificPopup({type:'image'});
+
+  });
   //transparent background
 
   $(window).scroll(function () {

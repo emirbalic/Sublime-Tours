@@ -11,10 +11,11 @@
   <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
   <!--font awesome-->
   <script src="fontawesome-all.js"></script>
+  <link rel="stylesheet" href="magnific/magnific-popup.css">
   
   <!--  owl css-->
-  <link rel="stylesheet" href="owl/owl.theme.default.css">
-  <link rel="stylesheet" href="owl/owl.carousel.min.css">
+  <!-- <link rel="stylesheet" href="owl/owl.theme.default.css">
+  <link rel="stylesheet" href="owl/owl.carousel.min.css"> -->
   <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 </head>
 
@@ -37,7 +38,7 @@
         <li><a href="#about">special offers</a></li>
         <li><a href="#projects">sites</a></li>
         <li><a href="#contact">contact us</a></li>
-        <li><a href="#team">Q&A</a></li>
+        <!-- <li><a href="#team">Q&A</a></li> -->
       </ul>
 
       <ul class="nav-icons">
@@ -52,7 +53,7 @@
     </nav>
     <div class="banner" id="banner">
       <div class="bannerCard">
-        <h1>Sublime <span>tours</span></h1>
+        <h1> <span>Sublime tours</span></h1>
         <h3>will show you all around and more...</h3>
       </div>
     </div>
@@ -63,82 +64,98 @@
     <div class="skills-center">
       
       <article class="skill" >
-      <!-- style="background-image: url('img/walking.png')"> -->
-          <a href="walking.html">
+          <a class="popup" href="img-pages/trevi.jpg">
             <img src="img-tours/walking.png" alt="Walking">
-              <!-- <i class="fab fa-archway"></i>  -->
           </a>
           <h1>Walking</h1>
           <p>Experience the most entertaining and informative walking tour ever</p>
+          <h2>€79</h2>
+          <a href="#"><button>Book Tour</button></a>
       </article>
       <article class="skill">
-        <a href="#">
+        <a href="img-pages/street-food.jpg">
             <img src="img-tours/food.png" alt="Food">
-        <!-- <i class="fab fa-css3"></i> -->
       </a>
         <h1>Food</h1>
-        <p>Taste some of the best street food in the world</p>
+        <p>Experience some of the best street food in the world in the cool part of Rome</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
       <article class="skill">
         <a href="#">
             <img src="img-tours/wine.png" alt="Wine">
-        <!-- <i class="fab fa-js"></i> -->
       </a>
         <h1>Wine</h1>
-        <p>Get a taste of excellent Italian wines entertained and educated by a Roman wine expert</p>
+        <p>Taste excellent Italian wines guided by a Roman wine expert</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
       <article class="skill">
         <a href="#">
             <img src="img-tours/pizza-class.jpg" alt="Pizza class">
-        <!-- <i class="fab fa-node-js"></i> -->
       </a>
         <h1>Pizza class</h1>
-        <p>Unforgetable finish of a walking tour</p>
+        <p>Your chance to experience the unforgetable finish of a walking tour</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
       <article class="skill">
         <a href="#">
             <img src="img-tours/pasta-class.jpg" alt="Pizza class">
 
-        <!-- <i class="fab fa-angular"></i> -->
       </a>
         <h1>Pasta class</h1>
-        <p>Learh how to make paste from some the best Roman chefs</p>
+        <p>Enjoy learing how to make paste from some the best Roman chefs</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
       <article class="skill">
         <a href="#">
             <img src="img-tours/gelato-class.jpg" alt="Pizza class">
 
-        <!-- <i class="fab fa-react"></i> -->
       </a>
         <h1>Gelato</h1>
-        <p>Learn how to make ice-cream Roman style</p>
+        <p>Discover all of the secrets of making an ice-cream Roman style</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
       <article class="skill">
         <a href="#">
             <img src="img-tours/motorcycle.jpg" alt="Pizza class">
 
-        <!-- <i class="fab fa-node-js"></i> -->
       </a>
         <h1>Motorcycle Tours</h1>
         <p>Experience Rome on a pillion seat of a Roman biker</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
       <article class="skill">
         <a href="#">
             <img src="img-tours/roma-nightlife.jpeg" alt="Pizza class">
 
-        <!-- <i class="fab fa-angular"></i> -->
       </a>
         <h1>Nightlife</h1>
         <p>Experience Roman night life guided by famouse local DJ Nella</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
       <article class="skill">
         <a href="#">
             <img src="img-tours/basilica.png" alt="Pizza class">
 
-        <!-- <i class="fab fa-react"></i> -->
       </a>
         <h1>Art and History</h1>
         <p>See the art through the layers of the richest history on the Earth</p>
+        <h2>€79</h2>
+        <a href="#"><button>Book Tour</button></a>
+
       </article>
     </div>
   </section>
@@ -154,7 +171,7 @@
         <h1>Get a special discount</h1>
         <div class="about-text-underline"></div>
         <p>This offer will be valid from March 2019</p>
-        <a href="#">explore</a>
+        <!-- <a href="#">explore</a> -->
       </div>
 
     </article>
@@ -178,172 +195,7 @@
   </section>
 
 
-  <!--end of projects-->
-  <!--team-->
-  <!-- <section class="team-members" id="team">
-    <div class="team-center owl-carousel owl-theme">
-      <article class="member">
-        <img src="img/team-1.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-      <article class="member">
-        <img src="img/team-2.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-      <article class="member">
-        <img src="img/team-3.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-      <article class="member">
-        <img src="img/team-4.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-      <article class="member">
-        <img src="img/team-5.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-      <article class="member">
-        <img src="img/team-6.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-      <article class="member">
-        <img src="img/team-7.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-      <article class="member">
-        <img src="img/team-8.jpg" alt="member">
-        <div class="member-text">
-          <h3>team member</h3>
-          <h6>web developer</h6>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, sequi?</p>
-          <div class="member-icons">
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-google"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-          </div>
-        </div>
-      </article>
-
-
-    </div>
-  </section> -->
-  <!--end of team-->
-
-  <!-- customers-->
-  <!-- <section class="customers">
-    <div class="customers-center owl-carousel owl-theme">
-      <article class="customer">
-        <a href="#"><i class="fas fa-quote-right"></i>
-      </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ad.</p>
-        <h3>customer name</h3>
-        <h6>&#64;customer</h6>
-        <img src="img/team-1.jpg" alt="customer" width="150">
-      </article>
-      <article class="customer">
-        <a href="#"><i class="fas fa-quote-right"></i>
-      </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ad.</p>
-        <h3>customer name</h3>
-        <h6>&#64;customer</h6>
-        <img src="img/team-2.jpg" alt="customer" width="150">
-      </article>
-      <article class="customer">
-        <a href="#"><i class="fas fa-quote-right"></i>
-      </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ad.</p>
-        <h3>customer name</h3>
-        <h6>&#64;customer</h6>
-        <img src="img/team-3.jpg" alt="customer" width="150">
-      </article>
-      <article class="customer">
-        <a href="#"><i class="fas fa-quote-right"></i>
-      </a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, ad.</p>
-        <h3>customer name</h3>
-        <h6>&#64;customer</h6>
-        <img src="img/team-4.jpg" alt="customer" width="150">
-      </article>
-
-
-
-    </div>
-
-  </section> -->
-
-
-  <!--end of customers-->
+  
   <!--contact-->
   <section class="contact" id="contact">
     <div class="contact-center">
@@ -353,7 +205,7 @@
 
           </div>
           <div class="contact-text">
-            <h3>find us here</h3>
+            <p>find us here:</p>
             <p>Via Augusto Dulceri 183</p>
             <p>Rome, Italy</p>
             <p>00167</p>
@@ -365,7 +217,7 @@
 
           </div>
           <div class="contact-text">
-            <h3>call us here</h3>
+            <p>call us:</p>
             <p>Nina</p>
             <p>+333 333 333</p>
             <p>mon - fri, 8.00 - 22.00 Rome CET</p>
@@ -405,8 +257,16 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!--  owl js-->
   <script src="owl/owl.carousel.min.js"></script>
+
   <!-- main js-->
+  <!-- magnific -->
+  <script src="magnific/jquery.magnific-popup.min.js"></script>
+
+  <!-- script  -->
   <script src="script.js"></script>
+
+  <!-- script magnific (not to mix scripts) -->
+  <script src="magnific/magnific.js"></script>
 </body>
 
 </html>
