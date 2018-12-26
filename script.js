@@ -7,7 +7,7 @@ $(document).ready(function () {
     $('.btn').toggleClass('change');
 
     //for the MP
-    $('.image-link').magnificPopup({type:'image'});
+    // $('.image-link').magnificPopup({type:'image'});
 
   });
   //transparent background
