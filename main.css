@@ -255,6 +255,7 @@ nav {
 
 .skill a {
   transition: opacity 2s ease;
+  text-decoration: none;
 }
 
 
@@ -534,7 +535,7 @@ nav {
   border-radius: 30px;
 }
 
-.contact-detail:hover {
+.contact-center:hover {
   /* opacity: 0.5; */
   color: rgba(6, 24, 2, 0.76);
   font-size: 35px;
