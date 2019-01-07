@@ -15,11 +15,15 @@ $(document).ready(function () {
 
 
     if (position >= 100) {
+      $('logo4, img').attr('style', 'color: white');
       $('nav-links, a').attr('style', 'color: white');
-      $('nav, nav-container').addClass('navBackground')
+      $('nav, nav-container').addClass('navBackground');
+      $('nav-icons, path').attr('style', 'color: white');
     } else {
+      $('logo4, img').attr('style', 'color: #03243e');
       $('nav-links, a').attr('style', 'color: #03243e');
       $('nav, nav-container').removeClass('navBackground')
+      $('nav-icons, path').attr('style', 'color: #03243e');
 
     }
 

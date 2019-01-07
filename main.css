@@ -7,8 +7,7 @@
 
 
 body {
-  font-family: 'Permanent Marker', cursive;
-
+  /* font-family: 'Permanent Marker', cursive; */
 }
 
 .nav-links {
@@ -40,6 +39,10 @@ body {
 
 .nav-icons {
   display: none;
+}
+.nav-icons a path{
+  color: #03243e;
+  transition: color 2s ease, background 2s ease, padding 2s ease;
 }
 
 .nav-container {
@@ -224,6 +227,12 @@ nav {
 
 /*##########skills#################*/
 
+.rollover:hover {
+  color: rgb(179, 245, 245);
+  font-size: 17px;
+  background: rgba(142, 153, 253, 0.5);
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
 
 .skills {
   padding: 40px 0;
@@ -244,11 +253,15 @@ nav {
   color: #f5f3f5;
 }
 
+.skill a {
+  transition: opacity 2s ease;
+}
 
-/* .skill a {
-  font-size: 80px;
-  color: #f5f3f5;
-} */
+
+.skill a:hover {
+  opacity: 0.1;
+  cursor: pointer;
+}
 
 .skill h1 {
   /* color: #f5f3f5; */
@@ -273,9 +286,11 @@ nav {
   line-height: 2;
   letter-spacing: 5px
 }
-
+/* .skill article{
+} */
 .skill button {
-  font-family: 'Permanent Marker', cursive;
+ 
+  /* font-family: 'Permanent Marker', cursive; */
   background: transparent;
   cursor: pointer;
   display: inline-block;
@@ -283,6 +298,7 @@ nav {
   text-transform: uppercase;
   color: #f5f3f5;
   padding: 15px 10px;
+  /* margin-bottom: 20px; */
   border: 3px solid #f5f3f5;
   transition: border 2s ease, background 2s ease, color 2s ease;
 }
@@ -493,6 +509,8 @@ nav {
 
 /*###############contact################*/
 
+
+
 .contact {
   padding: 100px 0;
   /* background: linear-gradient(rgba(243, 200, 106, 0.6), rgba(0, 0, 0, 0.6)), url(img/roma-colosseum.jpg) center/cover fixed no-repeat; */
@@ -512,8 +530,22 @@ nav {
 .contact-detail {
   display: flex;
   margin: 20px 0;
-
+  padding: 0 10px;
+  border-radius: 30px;
 }
+
+.contact-detail:hover {
+  /* opacity: 0.5; */
+  color: rgba(6, 24, 2, 0.76);
+  font-size: 35px;
+  background-color: rgba(3,36,62, 0.7);
+  /* background: #0a528a;  */
+  /* background-blend-mode: color-burn; */
+  transition: color 0.3s ease, font-size 0.3s ease;
+}
+/* .contact-text {
+  color: green;
+} */
 
 .contact-icon {
   font-size: 50px;
