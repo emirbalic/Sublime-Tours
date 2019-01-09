@@ -241,7 +241,7 @@ nav {
 
 .rollover:hover {
   color: rgb(179, 245, 245);
-  font-size: 17px;
+  /* font-size: 17px; */
   background: rgba(142, 153, 253, 0.5);
   transition: color 0.3s ease, font-size 0.3s ease;
 }
