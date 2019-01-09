@@ -6,7 +6,6 @@ $(document).ready(function () {
   };
   //toggle button
   $('.btn').click(function () {
-    // changed from 3000 because were slow
     $('.nav-links').slideToggle(1000);
     $('.btn').toggleClass('change');
 
